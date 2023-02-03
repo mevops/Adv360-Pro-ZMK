@@ -24,6 +24,8 @@
 #define KEYS_RIGHT 7 8 9 10 11 12 13 21 22 23 24 25 26 27 \
     39 40 41 42 43 44 45 60 61 62 63 64 65 77 78 79 80 81
 
+#define _SCRNS &kp LG(LS(NUMBER_4))
+
 &lt {
     quick-tap-ms = <300>;
     global-quick-tap;
@@ -127,7 +129,7 @@
             bindings = <
  &trans  &trans  &trans           &trans             &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans       &kp LC(UP)       &kp LC(DOWN)  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans           &trans       &kp LG(BSLH)  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans           _SCRNS       &kp LG(BSLH)  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &kp LA(LG(ESC))  &kp LC(LG(SPACE))  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans           &trans             &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
