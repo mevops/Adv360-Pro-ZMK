@@ -79,8 +79,8 @@
             bindings = <
  &kp EQUAL      &kp N1      &kp N2    &kp N3       &kp N4           &kp N5                          &tog 1             &mo 3     &kp N6       &kp N7       &kp N8     &kp N9    &kp N0           &kp MINUS
    &kp TAB      &kp Q       &kp W     &kp F        &kp P            &kp B             &macro_emoji_picker  &kp LC(UP_ARROW)      &kp J        &kp L        &kp U      &kp Y  &kp SEMI            &kp BSLH
-   &none        &kp A       &kp R     &hm_l LGUI S &hm_l LSHFT T    &kp G            &kp LG(LS(NUMBER_4))          &kp LGUI   &kp LALT                            &kp RCTRL  &kp RGUI  &kp LC(DOWN_ARROW)     &kp M  &hm_r LSHFT N &hm_r RGUI E &kp I     &kp O    &kp SQT
- &kp LSHFT      &kp Z       &kp X     &kp C        &hm_l LCTRL D            &kp V            &none             &none   &kp HOME        &none        &none  &kp PG_UP     &none               &none     &kp K        &hm_r LCTRL H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+   &none        &kp A       &hm_l LALT R &hm_l LGUI S &hm_l LSHFT T    &kp G            &kp LG(LS(NUMBER_4))          &kp LGUI   &kp LALT                            &kp RCTRL  &kp RGUI  &kp LC(DOWN_ARROW)     &kp M  &hm_r RSHFT N &hm_r RGUI E &hm_r RALT I  &kp O    &kp SQT
+ &kp LSHFT      &kp Z       &kp X     &kp C        &hm_l LCTRL D            &kp V            &none             &none   &kp HOME        &none        &none  &kp PG_UP     &none               &none     &kp K        &hm_r RCTRL H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
      &mo 2  &kp GRAVE  &caps_word  &kp LEFT    &kp RIGHT  &lt 2 BACKSPACE                           &kp ESC           &kp END  &kp PG_DN  &lt 5 ENTER  &lt 2 SPACE     &kp UP  &kp DOWN            &kp LBKT  &kp RBKT        &mo 2
             >;
         };
