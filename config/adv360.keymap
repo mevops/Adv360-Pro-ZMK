@@ -35,7 +35,7 @@
             quick_tap_ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
-            global-quick-tap-ms = <150>;
+            // global-quick-tap-ms = <150>;
             hold-trigger-key-positions = <RIGHT_KEYS THUMB_KEYS>;
             // hold-trigger-on-release;
         };
@@ -47,7 +47,7 @@
             quick_tap_ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
-            global-quick-tap-ms = <150>;
+            // global-quick-tap-ms = <150>;
             hold-trigger-key-positions = <LEFT_KEYS THUMB_KEYS>;
             // hold-trigger-on-release;
         };
@@ -59,7 +59,7 @@
         default_layer {
             bindings = <
  &kp EQUAL       &kp N1       &kp N2        &kp N3         &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6        &kp N7        &kp N8       &kp N9          &kp N0  &kp MINUS
-   &kp TAB        &kp Q        &kp W         &kp E          &kp R   &kp T               &none                                                                 &none   &kp Y         &kp U         &kp I        &kp O           &kp P   &kp BSLH
+   &kp TAB        &kp Q        &kp W         &kp E          &kp R   &kp T              &tog 4                                                                 &none   &kp Y         &kp U         &kp I        &kp O           &kp P   &kp BSLH
    &kp ESC  &hml LGUI A  &hmr LALT S  &hml LCTRL D   &hmr LSHFT F   &kp G               &none  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL      &none   &kp H  &hmr RSHFT J  &hmr RCTRL K  &hmr RALT L  &hmr RGUI SEMI    &kp SQT
  &kp LSHFT        &kp Z        &kp X         &kp C          &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N         &kp M     &kp COMMA      &kp DOT        &kp FSLH  &kp RSHFT
      &mo 2    &kp GRAVE   &caps_word      &kp LEFT      &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE                &kp UP      &kp DOWN     &kp LBKT        &kp RBKT      &mo 2
@@ -93,6 +93,16 @@
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none   &none   &none    &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                             &none       &none   &none   &none   &none         &none       &none                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &none                  &out OUT_TOG  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
+            >;
+        };
+
+        layer_no_homro {
+            bindings = <
+ &kp EQUAL       &kp N1       &kp N2        &kp N3         &kp N4  &kp N5              &tog 1                                                                 &mo 3  &kp N6        &kp N7        &kp N8       &kp N9          &kp N0  &kp MINUS
+   &kp TAB        &kp Q        &kp W         &kp E          &kp R   &kp T              &tog 4                                                                 &none   &kp Y         &kp U         &kp I        &kp O           &kp P   &kp BSLH
+   &kp ESC        &kp A        &kp S         &kp D          &kp F   &kp G               &none  &kp LCTRL  &kp LALT   &none   &none   &kp LGUI  &kp RCTRL      &none   &kp H         &kp J         &kp K        &kp L        &kp SEMI    &kp SQT
+ &kp LSHFT        &kp Z        &kp X         &kp C          &kp V   &kp B               &none      &none  &kp HOME   &none   &none  &kp PG_UP      &none      &none   &kp N         &kp M     &kp COMMA      &kp DOT        &kp FSLH  &kp RSHFT
+     &mo 2    &kp GRAVE   &caps_word      &kp LEFT      &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE                &kp UP      &kp DOWN     &kp LBKT        &kp RBKT      &mo 2
             >;
         };
 
