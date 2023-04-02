@@ -35,6 +35,7 @@
             quick_tap_ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+            global-quick-tap-ms = <150>
             hold-trigger-key-positions = <RIGHT_KEYS THUMB_KEYS>;
             // hold-trigger-on-release;
         };
@@ -46,6 +47,7 @@
             quick_tap_ms = <175>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
+            global-quick-tap-ms = <150>
             hold-trigger-key-positions = <LEFT_KEYS THUMB_KEYS>;
             // hold-trigger-on-release;
         };
