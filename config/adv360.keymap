@@ -17,7 +17,7 @@
 / {
     behaviors {
         #include "macros.dtsi"
-        
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -36,7 +36,7 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <RIGHT_KEYS THUMB_KEYS>;
-            hold-trigger-on-release;
+            // hold-trigger-on-release;
         };
         hmr: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
@@ -47,7 +47,7 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <LEFT_KEYS THUMB_KEYS>;
-            hold-trigger-on-release;
+            // hold-trigger-on-release;
         };
     };
 
