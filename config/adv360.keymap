@@ -81,7 +81,7 @@
         &trans &trans &trans   &trans &trans &trans &none                                                           &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans   &trans &trans &trans &none            &trans &trans          &trans &trans           &none &trans &trans &trans &trans  &trans  &trans
         &trans &trans &trans   &trans &trans &trans                         &trans          &trans                        &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &kp CAPS &trans &trans                  &trans &trans &kp LC(LALT)    &trans &trans &trans                 &trans &trans &trans  &trans  &trans
+        &trans &trans &kp CAPS &trans &trans                  &trans &trans &kp LG(LALT)    &trans &trans &trans                 &trans &trans &trans  &trans  &trans
       >;
     };
     mod {
